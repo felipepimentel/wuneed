@@ -1,0 +1,30 @@
+<idea-plugin>
+  <id>com.your-company.wuneed</id>
+  <name>Wuneed Integration</name>
+  <version>1.0</version>
+  <vendor email="support@your-company.com" url="http://www.your-company.com">Your Company</vendor>
+
+  <description><![CDATA[
+      Wuneed integration for PyCharm.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial release of the Wuneed plugin for PyCharm.
+    ]]>
+  </change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+</idea-plugin>
